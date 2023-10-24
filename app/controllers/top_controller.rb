@@ -1,3 +1,5 @@
+require 'bcrypt'
+
 class TopController < ApplicationController
     def main
         if session[:login_uid] != nil
